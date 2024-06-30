@@ -15,37 +15,7 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://golflesson.netlify.app/games/adventure-games</loc>
-        <lastmod>2024-06-30</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://golflesson.netlify.app/games/action-games</loc>
-        <lastmod>2024-06-30</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://golflesson.netlify.app/games/puzzle-games</loc>
-        <lastmod>2024-06-30</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://golflesson.netlify.app/games/sport-games</loc>
-        <lastmod>2024-06-30</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://golflesson.netlify.app/games/racing-games</loc>
-        <lastmod>2024-06-30</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://golflesson.netlify.app/games/fantasy-games</loc>
+        <loc>https://golflesson.netlify.app/apps</loc>
         <lastmod>2024-06-30</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -57,19 +27,19 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://golflesson.netlify.app/partners/developers</loc>
+        <loc>https://golflesson.netlify.app/credits</loc>
         <lastmod>2024-06-30</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://golflesson.netlify.app/cookies</loc>
+        <loc>https://golflesson.netlify.app/booktabs</loc>
         <lastmod>2024-06-30</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://golflesson.netlify.app/404-error</loc>
+        <loc>https://golflesson.netlify.app/credits</loc>
         <lastmod>2024-06-30</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
