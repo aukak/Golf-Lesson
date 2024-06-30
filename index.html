@@ -19,12 +19,66 @@
         }
     }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Games</title>
-</head>
-<body>
-    <button onclick="window.location.href='https://golflesson.netlify.app/games';"></button>
+<div id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="/"><img src="/assets/imgs/heading.png" alt="heading" class="logo"></a>
+        </div>
+        <div class="navbar-right">
+            <a href="/games.html" class="nav-link">Games</a>
+            <a href="/apps.html" class="nav-link">Apps</a>
+            <a href="/booktabs.html" class="nav-link">Booktabs</a>
+            <a href="/credits.html" class="nav-link">Credits</a>
+            <a href="/partners.html" class="nav-link">Partners</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1 class="glowing-text">Golf lessons</h1>
+        <h5>test</h5>
+
+             <button class="blank-button" onclick="openGame()">Open About:Blank Version</button>
+        <script>
+      var urlObj = new window.URL(window.location.href);
+        var url = window.location;
+        
+        if (url) {
+            var win;
+        
+            document.querySelector('button').onclick = function() {
+                if (win) {
+                    win.focus();
+                } else {
+                    win = window.open();
+                    win.document.body.style.margin = '0';
+                    win.document.body.style.height = '100vh';
+                    var iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = url;
+                    win.document.body.appendChild(iframe);
+                    window.location.replace("https://ixl.com");
+        
+                    var interval = setInterval(function() {
+                        if (win.closed) {
+                            clearInterval(interval);
+                            win = undefined;
+        
+                        }
+                    }, 500);
+        
+        
+                }
+            };
+        }
+        </script>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
 </body>
 </html>
