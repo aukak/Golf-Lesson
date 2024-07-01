@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<body>
+
+  <header>
+    Fortnite Server 1
+  </header>
+
+  <!-- Placeholder Iframe -->
+  <iframe id="game-iframe" src="https://szvyonthefent.dob.jp/embed?search=https://play.geforcenow.com/mall/#/deeplink?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a" frameborder="0"></iframe>
+
+  <!-- Button Container -->
+  <div class="button-container">
+    <!-- Fullscreen Button -->
+    <button class="fullscreen-button" onclick="toggleFullscreen()">Fullscreen</button>
+
+    <!-- Back Button -->
+    <href="../../games" class="back-button">
+  </div>
+
+  <script>
+    function toggleFullscreen() {
+      const iframe = document.getElementById('game-iframe');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+        iframe.msRequestFullscreen();
+      }
+    }
+  </script>
+
+</body>
+</html>
